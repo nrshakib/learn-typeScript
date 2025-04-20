@@ -13,4 +13,4 @@ var num: number = 30;
 
 var boolData = true;
 // var data: string = boolData.toString();
-var data: string = "" + boolData;
+var data: number | string = "" + boolData;

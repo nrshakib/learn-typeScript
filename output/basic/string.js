@@ -1,8 +1,9 @@
+"use strict";
 var user = "Shakib";
 var age = 29;
 console.log(user);
 console.log(age);
-var info = "My name is ".concat(user, " & my age is ").concat(age);
+var info = `My name is ${user} & my age is ${age}`;
 console.log(info);
 var num = 30;
 // var data: string = num.toString();

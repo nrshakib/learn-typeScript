@@ -1,3 +1,4 @@
+"use strict";
 var data = "Shakib";
 var age = 28;
 console.log(data);

@@ -1,11 +1,12 @@
+"use strict";
 var number1 = 10;
 var number2 = "20";
 console.log(number1);
 console.log(number2);
 var total = number1 + Number(number2);
 console.log(total);
-var binary = 1;
-var octal = 8;
+var binary = 0b001;
+var octal = 0o010;
 var hex = 0x10;
 console.log(binary);
 console.log(octal);
